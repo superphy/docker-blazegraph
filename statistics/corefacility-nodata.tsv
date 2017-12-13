@@ -1,0 +1,9 @@
+name	indexType	m	height	nnodes	nleaves	nentries	nrawRecs	nerrors	nodeBytes	leafBytes	rawRecBytes	totalBytes	avgNodeBytes	avgLeafBytes	avgRawRecBytes	minNodeBytes	maxNodeBytes	minLeafBytes	maxLeafBytes	64	128	192	320	512	768	1024	2048	3072	4096	8192	blobs	newM	curM
+__globalRowStore	BTree	32	1	1	4	87	0	0	174	7865	0	8039	174	1966	0174	174	981	4342	0.0	0.0	0.2	0.0	0.0	0.0	0.2	0.4	0.0	0.0	0.2	0.0	655	32
+kb.lex.BLOBS	BTree	692	0	0	1	0	0	0	0	40	0	40	0	40	0	00	40	40	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	692	692
+kb.lex.ID2TERM	BTree	905	0	0	1	0	0	0	0	40	0	40	0	40	0	00	40	40	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	905	905
+kb.lex.TERM2ID	BTree	193	0	0	1	0	0	0	0	31	0	31	0	31	0	00	31	31	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	193	193
+kb.spo.JUST	BTree	284	0	0	1	0	0	0	0	30	0	30	0	30	0	00	30	30	1.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	0.0	284	284
+kb.spo.OSP	BTree	1024	0	0	1	187	0	0	0	1106	0	1106	0	1106	0	00	1106	1106	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	1024	1024
+kb.spo.POS	BTree	990	0	0	1	187	0	0	0	888	0	888	0	888	0	00	888	888	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	0.0	990	990
+kb.spo.SPO	BTree	256	0	0	1	187	0	0	0	1054	0	1054	0	1054	0	00	1054	1054	0.0	0.0	0.0	0.0	0.0	0.0	0.0	1.0	0.0	0.0	0.0	0.0	256	256
