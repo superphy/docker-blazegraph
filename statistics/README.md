@@ -5,5 +5,5 @@ curl 'http://192.168.0.1:8080/blazegraph/status?dumpJournal&dumpPages' -H 'Pragm
 
 # To generate on Cybera
 ```bash
-curl -d 'dumpPages' -d 'dumpJournal' 'http://localhost:8080/bigdata/status'
+curl -d 'dumpPages' -d 'dumpJournal' -H 'Connection: keep-alive' 'http://localhost:8080/bigdata/status' 
 ```
