@@ -15,4 +15,4 @@ RUN apk --no-cache add openssl
 RUN wget -O ${JETTY_WEBAPPS}/${BLAZEGRAPH_NAME}.war $BLAZEGRAPH_VERSION_URL
 RUN chown jetty:jetty $BLAZEGRAPH_RW_PATH
 
-CMD ["-Dcom.bigdata.rdf.sail.webapp.ConfigParams.propertyFile=/RWStore.properties"]
+CMD ["-Xmx6g -Dcom.bigdata.rdf.sail.webapp.ConfigParams.propertyFile=/RWStore.properties"]
