@@ -35,4 +35,4 @@ RUN cat $BLAZEGRAPH_RW_PATH
 # The blazegraph docs also hint about wrong startup folder being a possible
 # problem if rules.log is not found:
 # https://wiki.blazegraph.com/wiki/index.php/NanoSparqlServer#Common_Startup_Problems
-CMD cd /var/lib/jetty && java -jar /usr/local/jetty/start.jar -Dcom.bigdata.rdf.sail.webapp.ConfigParams.propertyFile=/RWStore.properties -Xmx6g
+CMD cd /var/lib/jetty && java -Xmx6g -jar /usr/local/jetty/start.jar -Dcom.bigdata.rdf.sail.webapp.ConfigParams.propertyFile=/RWStore.properties
